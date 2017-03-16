@@ -67,6 +67,9 @@ h1 {
 .detail-skill:before {
     content: "专业技能";
 }
+.detail-show:before {
+    content: "个人展示";
+}
 .detail-educ:before {
     content: "教育经历";
 }
@@ -96,7 +99,7 @@ h1 {
     left: 680px;
     width: 100px;
 }
-.detail-intention p, .detail-project p, .detail-selfEvaluation p, .detail-skill p {
+.detail-intention p, .detail-project p, .detail-selfEvaluation p, .detail-skill p,.detail-show p {
     height: 26px;
     line-height: 26px;
 }
@@ -107,6 +110,7 @@ h1 {
     padding-left: 10px;
     height: auto;
     border-bottom: 1px #4E7282 dashed;
+    font-size: 14px;
 }
 .detail-project p:last-child {
     border: none;
