@@ -1,0 +1,158 @@
+* {
+    font-family: "微软雅黑";
+}
+body {
+    background: #C0C2CC;
+}
+.mainBox {
+    margin: 50px auto 300px;
+    padding: 20px 50px 50px;
+    width: 900px;
+    background: #fff;
+    font-size: 14px;
+}
+h1 {
+    color: #4E7282;
+    font-weight: 400;
+    font-size: 50px;
+}
+.navBox {
+    position: absolute;
+    top: 105px;
+    left: 50%;
+    z-index: 9;
+    margin-left: 220px;
+    width: 200px;
+    height: 40px;
+    font-size: 0;
+}
+.navPane {
+    display: inline-block;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+}
+.line {
+    position: relative;
+    left: -50px;
+    margin: 10px 0;
+    width: 900px;
+}
+.detail {
+    position: relative;
+    margin-top: 23px;
+    padding: 10px 10px 10px 20px;
+    border-top: 1px #4E7282 solid;
+    border-left: 1px #4E7282 solid;
+}
+.detail:before {
+    position: absolute;
+    top: -24px;
+    left: -16px;
+    display: block;
+    width: 132px;
+    height: 30px;
+    background: url(../img/before.png);
+    color: #fff;
+    content: "";
+    text-indent: 24px;
+    line-height: 23px;
+}
+.detail-info:before {
+    content: "基本信息";
+}
+.detail-intention:before {
+    content: "求职意向";
+}
+.detail-skill:before {
+    content: "专业技能";
+}
+.detail-educ:before {
+    content: "教育经历";
+}
+.detail-internship:before {
+    content: "工作经历";
+}
+.detail-project:before {
+    content: "项目经历";
+}
+.detail-selfEvaluation:before {
+    content: "自我评价";
+}
+.list-info {
+    width: 760px;
+    font-size: 0;
+}
+.list-info .item {
+    display: inline-block;
+    width: 50%;
+    height: 26px;
+    font-size: 14px;
+    line-height: 26px;
+}
+.photo {
+    position: absolute;
+    top: 6px;
+    left: 680px;
+    width: 100px;
+}
+.detail-intention p, .detail-project p, .detail-selfEvaluation p, .detail-skill p {
+    height: 26px;
+    line-height: 26px;
+}
+.detail-selfEvaluation p {
+    height: auto;
+}
+.detail-project p {
+    padding-left: 10px;
+    height: auto;
+    border-bottom: 1px #4E7282 dashed;
+}
+.detail-project p:last-child {
+    border: none;
+}
+.list-educ {
+    width: 860px;
+    font-size: 0;
+}
+.list-educ .item {
+    display: inline-block;
+    width: 22%;
+    height: 26px;
+    font-size: 14px;
+    line-height: 26px;
+}
+.list-internship {
+    font-weight: 700;
+}
+.list-internship .item {
+    display: inline-block;
+    width: 32%;
+    height: 26px;
+    font-size: 14px;
+    line-height: 26px;
+}
+.detail-internship p {
+    padding-left: 10px;
+    height: 26px;
+    line-height: 26px;
+}
+h3 {
+    height: 26px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.list-project {
+    width: 860px;
+    font-size: 0;
+}
+.list-project dd, .list-project dt {
+    display: inline-block;
+    width: 8%;
+    height: 26px;
+    font-size: 14px;
+    line-height: 26px;
+}
+.list-project dd {
+    width: 42%;
+}
