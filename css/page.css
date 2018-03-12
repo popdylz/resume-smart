@@ -62,7 +62,7 @@ h1 {
     content: "基本信息";
 }
 .detail-intention:before {
-    content: "求职意向";
+    content: "工作意向";
 }
 .detail-skill:before {
     content: "专业技能";
